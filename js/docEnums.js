@@ -651,7 +651,7 @@
 
 /**
  * @typedef {string} Enums.SchedulerViewType
- * @enum {'agenda'|'day'|'month'|'timelineDay'|'timelineMonth'|'timelineWeek'|'timelineWorkWeek'|'week'|'workWeek'}
+ * @enum {'agenda'|'day'|'month'|'timelineHour'|'timelineDay'|'timelineMonth'|'timelineWeek'|'timelineWorkWeek'|'week'|'workWeek'}
  */
 
 /**

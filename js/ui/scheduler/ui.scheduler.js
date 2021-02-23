@@ -48,6 +48,7 @@ import subscribes from './subscribes';
 import { getRecurrenceProcessor } from './recurrence';
 import timeZoneUtils from './utils.timeZone';
 import SchedulerAgenda from './workspaces/ui.scheduler.agenda';
+import SchedulerTimelineHour from './workspaces/ui.scheduler.timeline_hour';
 import SchedulerTimelineDay from './workspaces/ui.scheduler.timeline_day';
 import SchedulerTimelineMonth from './workspaces/ui.scheduler.timeline_month';
 import SchedulerTimelineWeek from './workspaces/ui.scheduler.timeline_week';
@@ -91,6 +92,10 @@ const VIEWS_CONFIG = {
     month: {
         workSpace: SchedulerWorkSpaceMonth,
         renderingStrategy: 'horizontalMonth'
+    },
+    timelineHour: {
+        workSpace: SchedulerTimelineHour,
+        renderingStrategy: 'horizontal'
     },
     timelineDay: {
         workSpace: SchedulerTimelineDay,

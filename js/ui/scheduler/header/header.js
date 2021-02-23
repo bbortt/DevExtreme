@@ -22,6 +22,7 @@ const STEP_MAP = {
     week: 'week',
     workWeek: 'workWeek',
     month: 'month',
+    timelineHour: 'hour',
     timelineDay: 'day',
     timelineWeek: 'week',
     timelineWorkWeek: 'workWeek',
@@ -29,7 +30,7 @@ const STEP_MAP = {
     agenda: 'agenda'
 };
 
-const VIEWS = ['day', 'week', 'workWeek', 'month', 'timelineDay', 'timelineWeek', 'timelineWorkWeek', 'timelineMonth', 'agenda'];
+const VIEWS = ['day', 'week', 'workWeek', 'month', 'timelineHour', 'timelineDay', 'timelineWeek', 'timelineWorkWeek', 'timelineMonth', 'agenda'];
 
 export class Header extends Widget {
     _getDefaultOptions() {
